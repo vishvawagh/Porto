@@ -158,12 +158,17 @@ button:focus {
 
 @media (max-width: 767px) {
   .navbar {
-    padding: 1rem 2rem !important;
-    font-size: 1.4rem !important;
-    background-color: #181a27 !important;
+    padding: 0.4rem 1.2rem !important;
+    font-size: 1.05rem !important;
+    min-height: 48px !important;
   }
-  .navbar-nav .nav-item a::after {
-    display: none !important;
+  .navbar-brand .logo {
+    height: 1.5em !important;
+    width: 1.8em !important;
+  }
+  .nav-link {
+    padding: 0.5rem 0.7rem !important;
+    font-size: 1rem !important;
   }
 }
 .navbar-brand {
